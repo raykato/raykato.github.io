@@ -95,17 +95,17 @@
 body {
   background: url("https://raykato.github.io/main_haikei.png") no-repeat;
   -webkit-text-size-adjust: 100%;
-  background-size: 1400px 900px;
+  background-size: 1000px 900px;
   background-position: bottom;
   background-color: #000;
   margin: 0px;
   padding: 0px;
   text-align: center;
-  width: 1420px;
+  width: 1000px;
 }
 
 video {
-  width: 1200px;
+  width: 1000px;
 }
 
 }
