@@ -216,12 +216,6 @@ video {
  padding-bottom: 50px;
 }
 
-.Images img {
- width: 100px;
- margin-right: 100px;
- margin-left: 100px;
-}
-
 .image-block {
   display: flex;
   margin-right: 100px;
