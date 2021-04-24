@@ -212,12 +212,12 @@ video {
   margin: 0;
 }
 
-.images {
+.Images {
  padding-top: 50px;
  padding-bottom: 50px;
 }
 
-images img {
+.Images img {
  width: 70px;
 }
 
