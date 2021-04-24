@@ -166,9 +166,8 @@ video {
 
 .menu {
   text-align: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 1200px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .menu img {
@@ -367,6 +366,11 @@ video {
 .image15 img {
   width: 240px;
   padding: 0;
+}
+
+.bunner {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .bunner-block {
