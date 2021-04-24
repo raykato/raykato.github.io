@@ -448,7 +448,7 @@ video {
 }
 
 .header {
- width: 100%;
+ width: 1184px;
 }
 
 .message-image1 img {
@@ -502,5 +502,4 @@ video {
   background-color: #000;
   margin: 0px auto;
   padding: 0px;
-  width: 1184px;
 }
