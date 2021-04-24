@@ -447,6 +447,10 @@ video {
   vertical-align: bottom;
 }
 
+.header {
+ width: 100%;
+}
+
 .message-image1 img {
   width: 1200px;
 }
