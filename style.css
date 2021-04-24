@@ -100,11 +100,11 @@ body {
   background-color: #000;
   margin: 0px auto;
   padding: 0px;
-  width: 1400px;
+  width: 100%;
 }
 
 video {
-  width: 1420px;
+  width: 100%;
 }
 
 }
@@ -435,7 +435,7 @@ video {
 }
 
 .footer img {
-  width: 1400px;
+  width: 100%;
 }
 
 .message-image1 img {
@@ -485,5 +485,5 @@ video {
   background: url(https://raykato.github.io/backgrand.png) no-repeat;
   background-position: bottom;
   background-color: #000;
-  width: 1400px
+  width: 100%;
 }
