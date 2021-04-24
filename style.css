@@ -419,6 +419,7 @@ video {
 
 .timeaccess img {
   width: 1200px;
+  padding-bottom: 50px;
 }
 
 .footer {
@@ -427,7 +428,7 @@ video {
 }
 
 .footer img {
-  width: 1250px;
+  width: 1400px;
 }
 
 .message-image1 img {
