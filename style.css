@@ -124,7 +124,7 @@ video {
   font-size: 15px;
   padding: 15px;
   border: solid 1px #fff;
-  width: 1350px;
+  width: 1200px;
 }
 
 .message  {
@@ -139,6 +139,7 @@ video {
   width: 150px;
   padding-top: 50px;
 }
+
 .text-block {
   text-align: center;
   margin-left: 10px;
