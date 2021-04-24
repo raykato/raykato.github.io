@@ -216,6 +216,12 @@ video {
  padding-bottom: 50px;
 }
 
+.image-logo {
+ margin-right: 100px;
+ margin-left: 100px;
+ width: 80px;
+}
+
 .image-block {
   display: flex;
   margin-right: 100px;
