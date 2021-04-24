@@ -1,0 +1,463 @@
+.menu-btn {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  display: flex;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  z-index: 90;
+  background-color: none;
+  border: 1px solid #fff;
+}
+
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  position: absolute;
+}
+.menu-btn span:before {
+  bottom: 8px;
+}
+.menu-btn span:after {
+  top: 8px;
+}
+
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+}
+
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+#menu-btn-check {
+    display: none;
+}
+
+#menu-btn-check:checked ~ .menu-content {
+    right: 0;/*メニューを画面内へ*/
+}
+
+.menu-content {
+    width: 200px;
+    height: 450px;
+    position: fixed;
+    top: 80px;
+    right: 100%;
+    z-index: 80;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    margin-right: 15px;
+}
+.menu-content ul {
+    padding: 20px;
+    text-align: left;
+}
+.menu-content ul li {
+    list-style: none;
+}
+.menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+}
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+
+@media screen and (max-width:600px) {
+
+}
+body {
+  background: url("images/main_haikei.png") no-repeat;
+  -webkit-text-size-adjust: 100%;
+  background-size: 1400px 900px;
+  background-position: bottom;
+  background-color: #000;
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+  width: 1420px;
+}
+
+video {
+  width: 1400px;
+}
+
+}
+
+.ul sns {
+  text-align: center;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+}
+
+.sns img {
+  width: 30px;
+  padding-right: 30px;
+}
+
+.infomation h1{
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  border: solid 1px #fff;
+  width: 1350px;
+}
+
+.message  {
+  text-align: center;
+  padding-top:　50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 1200px;
+}
+
+.message img {
+  width: 150px;
+  padding-top: 50px;
+}
+.text-block {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.text-block-innner p {
+  font-size: 20px;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 1200px;
+}
+.text-link {
+  text-align: left;
+}
+
+.text-link a {
+  color: #ff0000;
+}
+
+.menu {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 1200px;
+}
+
+.menu img {
+  width: 100px;
+}
+
+.menu-block-top {
+  display: flex;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-block-bottom {
+  display: flex;
+  padding: 0;
+}
+.menu-image1 img {
+  width: 600px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.menu-image2 img {
+  width: 600px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.menu-image3 img {
+  width: 600px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-image4 img {
+  width: 600px;
+  padding: 0;
+  margin: 0;
+}
+
+.image-block {
+  display: flex;
+}
+
+.image1 img[tabindex]{
+	cursor:pointer;
+}
+
+.lb {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.7);
+    opacity: 0;
+    transition: .3s opacity ease;
+    pointer-events: none;
+    z-index: 100;
+}
+
+.lb img {
+    width: auto !important;
+    max-height: 100%!important;
+    cursor: pointer;
+}
+
+.lb img,
+.lb iframe {
+    transform: scale(.85);
+    transition: .3s all ease;
+    padding: 30px 20px;
+}
+
+.lb:target {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 101;
+}
+
+.lb:target img,
+.lb:target iframe {
+    transform: scale(1);
+}
+
+/* なんちゃって閉じるボタン*/
+.lb::before,.lb::after {
+    display: block;
+    position: fixed;
+    content: "";
+    width: 24px;
+    height:3px;
+    top: 24px;
+    right: 12px;
+    background: #fff;
+    border-radius: 4px;
+}
+.lb::before {
+    transform: rotate(-315deg);
+}
+.lb::after {
+    transform: rotate(315deg);
+}
+
+.image1 img {
+  width: 240px;
+  vertical-align: bottom;
+}
+
+.image2 img {
+  width: 240px;
+  vertical-align: bottom;
+}
+
+.image3 img {
+  width: 240px;
+  vertical-align: bottom;
+}
+
+.image4 img {
+  width: 240px;
+  vertical-align: bottom;
+}
+
+.image5 img {
+  width: 240px;
+  vertical-align: bottom;
+}
+
+.image-block2 {
+  display: flex;
+  padding: 0;
+}
+
+.image6 img {
+  width: 240px;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.image7 img {
+  width: 240px;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.image8 img {
+  width: 240px;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.image9 img {
+  width: 240px;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.image10 img {
+  width: 240px;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.image-block3 {
+  display: flex;
+  padding: 0;
+}
+
+.image11 img {
+  width: 240px;
+  padding: 0;
+}
+
+.image12 img {
+  width: 240px;
+  padding: 0;
+}
+
+.image13 img {
+  width: 240px;
+  padding: 0;
+}
+
+.image14 img {
+  width: 240px;
+  padding: 0;
+}
+
+.image15 img {
+  width: 240px;
+  padding: 0;
+}
+
+.bunner-block {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.takeout img {
+  width: 600px;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.reserve img {
+  width: 600px;
+  vertical-align: bottom;
+}
+
+.bunner-block2 {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background-position: contain;
+}
+
+.Delivery img {
+  width: 600px;
+  padding: 0;
+}
+
+.onlineshop img {
+  width: 600px;
+  padding: 0;
+}
+
+.timeaccess img {
+  width: 1200px;
+}
+
+.footer img {
+  width: 1500px;
+
+}
+
+.message-image1 img {
+  width: 1200px;
+}
+
+.message-image2 img {
+  width: 1200px;
+}
+
+.owner-image  {
+  float: left;
+}
+
+.owner-image img {
+  width: 200px;
+}
+
+.owner-image p {
+  color: #fff;
+  text-align: left;
+}
+
+.message-text1 p {
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+}
+
+.message-text2 p {
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+}
+
+.message-text3 p {
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+}
+
+@media screen and (max-width:600px){
+/*画面サイズが600px以下の場合に適用 */
+}
+
+#message {
+  background: url(backgrand.png) no-repeat;
+  background-size: 100px 900px;
+  background-position: bottom;
+  background-color: #000;
+}
