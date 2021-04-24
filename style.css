@@ -216,12 +216,10 @@ video {
 .images {
  padding-top: 50px;
  padding-bottom: 50px;
- margin-right: 100px;
- margin-left: 100px;
 }
 
 images img {
- width: 100px;
+ width: 70px;
 }
 
 .image-block {
@@ -358,6 +356,7 @@ images img {
   display: flex;
   margin-right: 100px;
   margin-left: 100px;
+  padding-bottom: 50px;
 }
 
 .image11 img {
@@ -427,7 +426,7 @@ images img {
 
 .timeaccess img {
   width: 1200px;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
 }
 
