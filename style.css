@@ -220,6 +220,10 @@ video {
  margin-left: 100px;
 }
 
+images img {
+ width: 100px;
+}
+
 .image-block {
   display: flex;
   margin-right: 100px;
