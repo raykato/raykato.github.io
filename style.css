@@ -444,6 +444,7 @@ video {
   width: 100%;
   padding: 0;
   margin: 0;
+  vertical-align: bottom;
 }
 
 .message-image1 img {
