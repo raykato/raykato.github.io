@@ -461,6 +461,7 @@ video {
 
 .owner-image  {
   float: left;
+  margin-left: 50px;
 }
 
 .owner-image img {
