@@ -222,6 +222,8 @@ video {
 
 .image-block {
   display: flex;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .image1 img[tabindex]{
@@ -314,7 +316,8 @@ video {
 
 .image-block2 {
   display: flex;
-  padding: 0;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .image6 img {
@@ -349,7 +352,8 @@ video {
 
 .image-block3 {
   display: flex;
-  padding: 0;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .image11 img {
