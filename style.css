@@ -168,6 +168,7 @@ video {
   text-align: left;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 20px;
 }
 
 .menu img {
@@ -371,6 +372,7 @@ video {
 .bunner {
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 20px;
 }
 
 .bunner-block {
@@ -411,10 +413,13 @@ video {
   width: 1200px;
 }
 
-.footer img {
-  width: 1200px;
+.footer {
   margin: 0;
   padding: 0;
+}
+
+.footer img {
+  width: 1200px;
 }
 
 .message-image1 img {
