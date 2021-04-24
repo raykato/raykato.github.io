@@ -98,14 +98,14 @@ body {
   background-size: 1000px 900px;
   background-position: bottom;
   background-color: #000;
-  margin: 0px;
-  padding: 0px;
   text-align: center;
   width: 1000px;
+  max-width: 1250px;
+  margin: auto;
 }
 
 video {
-  width: 1000px;
+  width: 1250px;
 }
 
 }
@@ -419,7 +419,7 @@ video {
 }
 
 .footer img {
-  width: 1200px;
+  width: 1250px;
 }
 
 .message-image1 img {
