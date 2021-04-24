@@ -409,7 +409,8 @@ video {
 
 .footer img {
   width: 1500px;
-
+  margin: 0;
+  padding: 0;
 }
 
 .message-image1 img {
