@@ -100,8 +100,7 @@ body {
   background-color: #000;
   margin: 0px auto;
   padding: 0px;
-  text-align: center;
-  width: 1420px;
+  width: 1400px;
 }
 
 video {
@@ -436,7 +435,7 @@ images img {
 }
 
 .footer img {
-  width: 1420px;
+  width: 1400px;
 }
 
 .message-image1 img {
