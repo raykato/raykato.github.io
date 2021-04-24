@@ -125,6 +125,8 @@ video {
   padding: 15px;
   border: solid 1px #fff;
   width: 1200px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .message  {
