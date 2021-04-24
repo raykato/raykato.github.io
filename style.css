@@ -118,6 +118,11 @@ video {
   padding-right: 30px;
 }
 
+.infomation {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
 .infomation h1{
   color: #fff;
   text-align: center;
@@ -125,8 +130,6 @@ video {
   padding: 15px;
   border: solid 1px #fff;
   width: 1200px;
-  margin-right: 100px;
-  margin-left: 100px;
 }
 
 .message  {
