@@ -466,9 +466,17 @@ video {
   vertical-align: bottom;
 }
 
+.takeout:hover {
+  opacity: 0.6;
+}
+
 .reserve img {
   width: 600px;
   vertical-align: bottom;
+}
+
+.reserve:hover {
+  opacity: 0.6;
 }
 
 .bunner-block2 {
@@ -482,9 +490,17 @@ video {
   padding: 0;
 }
 
+.Delivery:hover {
+  opacity: 0.6;
+}
+
 .onlineshop img {
   width: 600px;
   padding: 0;
+}
+
+.onlineshop:hover {
+  opacity: 0.6;
 }
 
 .timeaccess img {
