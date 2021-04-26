@@ -511,6 +511,10 @@ video {
   margin-left: 100px;
 }
 
+.timeaccess:hover {
+  opacity: 0.6;
+}
+
 .footer {
   margin: 0;
   padding: 0;
