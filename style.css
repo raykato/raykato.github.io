@@ -300,9 +300,17 @@ video {
   vertical-align: bottom;
 }
 
+.image1:hover {
+  opacity: 0.6;
+}
+
 .image2 img {
   width: 240px;
   vertical-align: bottom;
+}
+
+.image2:hover {
+  opacity: 0.6;
 }
 
 .image3 img {
@@ -310,14 +318,26 @@ video {
   vertical-align: bottom;
 }
 
+.image3:hover {
+  opacity: 0.6;
+}
+
 .image4 img {
   width: 240px;
   vertical-align: bottom;
 }
 
+.image4:hover {
+  opacity: 0.6;
+}
+
 .image5 img {
   width: 240px;
   vertical-align: bottom;
+}
+
+.image5:hover {
+  opacity: 0.6;
 }
 
 .image-block2 {
@@ -332,10 +352,18 @@ video {
   vertical-align: bottom;
 }
 
+.image6:hover {
+  opacity: 0.6;
+}
+
 .image7 img {
   width: 240px;
   padding: 0;
   vertical-align: bottom;
+}
+
+.image7:hover {
+  opacity: 0.6;
 }
 
 .image8 img {
@@ -344,16 +372,28 @@ video {
   vertical-align: bottom;
 }
 
+.image8:hover {
+  opacity: 0.6;
+}
+
 .image9 img {
   width: 240px;
   padding: 0;
   vertical-align: bottom;
 }
 
+.image9:hover {
+  opacity: 0.6;
+}
+
 .image10 img {
   width: 240px;
   padding: 0;
   vertical-align: bottom;
+}
+
+.image10:hover {
+  opacity: 0.6;
 }
 
 .image-block3 {
@@ -368,9 +408,17 @@ video {
   padding: 0;
 }
 
+.image11:hover {
+  opacity: 0.6;
+}
+
 .image12 img {
   width: 240px;
   padding: 0;
+}
+
+.image12:hover {
+  opacity: 0.6;
 }
 
 .image13 img {
@@ -378,14 +426,26 @@ video {
   padding: 0;
 }
 
+.image13:hover {
+  opacity: 0.6;
+}
+
 .image14 img {
   width: 240px;
   padding: 0;
 }
 
+.image14:hover {
+  opacity: 0.6;
+}
+
 .image15 img {
   width: 240px;
   padding: 0;
+}
+
+.image15:hover {
+  opacity: 0.6;
 }
 
 .bunner {
