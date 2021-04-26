@@ -583,3 +583,84 @@ video {
   margin: 0px auto;
   padding: 0px;
 }
+
+#access {
+  background: #000;
+}
+
+.access-logo img {
+  width: 400px;
+  padding-top: 50px;
+}
+
+.access-text h1 {
+  color: #fff;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.access-text p {
+  color: #fff;
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 110px;
+}
+
+.text-red {
+  color: #ff0000;
+  text-align: left;
+  padding-left: 110px;
+}
+
+.access-text2 p {
+  color: #fff;
+  text-align: left;
+  padding-left: 110px;
+  padding-bottom: 50px;
+}
+
+.access-image img {
+  width: 1200px;
+  padding-bottom: 50px;
+}
+
+.access-logo2 {
+  width:250px;
+}
+
+.access-logo2 img {
+  width: 250px;
+  text-align: left;
+  padding-left: 110px;
+}
+
+.access-text3 p {
+  color: #fff;
+  text-align: left;
+  padding-left: 110px;
+  padding-bottom: 50px;
+}
+
+.access-logo3 {
+  width: 130px;
+}
+
+.access-logo3 img {
+  width: 130px;
+  text-align: left;
+  padding-left: 110px;
+}
+
+.access-text4 {
+  color: #fff;
+  text-align: left;
+  padding-left: 110px;
+  padding-bottom: 50px;
+}
+
+.map p {
+  text-align: right;
+  padding-right: 120px;
+  color: #fff;
+}
