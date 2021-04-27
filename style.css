@@ -591,6 +591,7 @@ video {
 .access-logo img {
   width: 400px;
   padding-top: 50px;
+  padding-left: 110px;
 }
 
 .access-text h1 {
@@ -623,6 +624,7 @@ video {
 .access-image img {
   width: 1200px;
   padding-bottom: 50px;
+  padding-left: 110px;
 }
 
 .access-logo2 {
@@ -657,6 +659,10 @@ video {
   text-align: left;
   padding-left: 110px;
   padding-bottom: 50px;
+}
+
+.map {
+ padding-left: 110px;
 }
 
 .map p {
