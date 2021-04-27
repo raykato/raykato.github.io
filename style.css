@@ -85,7 +85,21 @@
 }
 
 .menu-content ul li a::before {
-  width: 100%;
+ content: "";
+　width: 0;
+　height: 1px;
+　background: #fff;
+　display: block;
+　position: absolute;
+　top: calc(100% + 1px);
+　left: 50%;
+　-webkit-transform: translateX(-50%);
+　transform: translateX(-50%);
+　transition: .3s;
+}
+
+.menu-content ul li a:hover::before {
+　width: 100%;
 }
 
 @media screen and (max-width:600px) {
