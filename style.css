@@ -71,17 +71,14 @@
     list-style: none;
 }
 .menu-content ul li a {
-  content: "";
-  width: 0;
-  height: 1px;
-  background: #fff;
   display: block;
-  position: absolute;
-  top: calc(100% + 1px);
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  transition: .3s;
+  width: 100%;
+  font-size: 15px;
+  box-sizing: border-box;
+  color:#ffffff;
+  text-decoration: none;
+  padding: 9px 15px 10px 0;
+  position: relative;
 }
 
 .menu-content ul li a::before {
