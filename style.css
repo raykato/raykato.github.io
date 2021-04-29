@@ -569,11 +569,11 @@ video {
   padding: 0;
 }
 
-.footer img {
+.footer {
   width: 100%;
   padding: 0;
   margin: 0;
-  vertical-align: bottom;
+  border: 1px solid ##a9a9a9
 }
 
 .header img{
