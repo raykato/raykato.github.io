@@ -580,42 +580,42 @@ video {
  width: 1420px;
 }
 
-.message-image1 img {
+#message .message-image1 img {
   width: 1200px;
 }
 
-.message-image2 img {
+#message .message-image2 img {
   width: 1200px;
 }
 
-.owner-image  {
+#message .owner-image  {
   float: left;
   margin-left: 100px;
   margin-top: 20px;
 }
 
-.owner-image img {
+#message .owner-image img {
   width: 200px;
 }
 
-.owner-image p {
+#message .owner-image p {
   color: #fff;
   text-align: left;
 }
 
-.message-text1 p {
-  color: #fff;
-  font-size: 20px;
-  text-align: left;
-}
-
-.message-text2 p {
+#message .message-text1 p {
   color: #fff;
   font-size: 20px;
   text-align: left;
 }
 
-.message-text3 p {
+#message .message-text2 p {
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+}
+
+#message .message-text3 p {
   color: #fff;
   font-size: 20px;
   text-align: left;
@@ -637,88 +637,88 @@ video {
   background: #000;
 }
 
-.access-logo img {
+#access .access-logo img {
   width: 400px;
   padding-top: 50px;
   padding-left: 110px;
 }
 
-.access-text h1 {
+#access .access-text h1 {
   color: #fff;
   text-align: left;
   padding-top: 50px;
   padding-left: 100px;
 }
 
-.access-text p {
+#access .access-text p {
   color: #fff;
   text-align: left;
   padding-top: 15px;
   padding-left: 110px;
 }
 
-.text-red {
+#access .text-red {
   color: #ff0000;
   text-align: left;
   padding-left: 110px;
 }
 
-.access-text2 p {
+#access .access-text2 p {
   color: #fff;
   text-align: left;
   padding-left: 110px;
   padding-bottom: 50px;
 }
 
-.access-image img {
+#access .access-image img {
   width: 1200px;
   padding-bottom: 50px;
   padding-left: 110px;
 }
 
-.access-image:hover {
+#access .access-image:hover {
   opacity: 0.6;
 }
 
-.access-logo2 {
+#access .access-logo2 {
   width:250px;
 }
 
-.access-logo2 img {
+#access .access-logo2 img {
   width: 250px;
   text-align: left;
   padding-left: 110px;
 }
 
-.access-text3 p {
+#access .access-text3 p {
   color: #fff;
   text-align: left;
   padding-left: 110px;
   padding-bottom: 50px;
 }
 
-.access-logo3 {
+#access .access-logo3 {
   width: 130px;
 }
 
-.access-logo3 img {
+#access .access-logo3 img {
   width: 130px;
   text-align: left;
   padding-left: 110px;
 }
 
-.access-text4 {
+#access .access-text4 {
   color: #fff;
   text-align: left;
   padding-left: 110px;
   padding-bottom: 50px;
 }
 
-.map {
+#access .map {
  padding-left: 110px;
 }
 
-.map p {
+#access .map p {
   text-align: right;
   padding-right: 120px;
   color: #fff;
