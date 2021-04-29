@@ -565,17 +565,14 @@ video {
   transform: rotate(-180deg);
 }
 
-.footer {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  border: 1px solid ##a9a9a9
-}
-
 .footer p {
   color: #fff;
   text-align: center;
 　text-decoration: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid ##a9a9a9
 }
 	
 .header img{
