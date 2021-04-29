@@ -100,7 +100,6 @@
 body {
   background: url("https://raykato.github.io/main_haikei.png") no-repeat;
   -webkit-text-size-adjust: 100%;
-  background-size: 1400px 900px;
   background-position: bottom;
   background-color: #000;
   margin: 0px auto;
@@ -114,8 +113,6 @@ video {
 
 .sns {
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .sns img {
@@ -124,8 +121,8 @@ video {
 }
 
 .infomation {
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .infomation h1{
@@ -134,26 +131,21 @@ video {
   font-size: 15px;
   padding: 15px;
   border: solid 1px #fff;
-  width: 1200px;
+  width: 100%;
 }
 
 .message  {
   text-align: center;
-  padding-top:　50px;
-  margin-left: 100px;
-  margin-right: 100px;
-  width: 1200px;
+  padding-top:　5%;
+  width: 100%;
 }
 
 .message img {
   width: 150px;
-  padding-top: 50px;
 }
 
 .text-block {
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .text-block-innner p {
@@ -161,8 +153,11 @@ video {
   color: #fff;
   text-align: left;
   display: inline-block;
-  width: 1200px;
+  width: 80%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
+
 .text-link {
   text-align: left;
 }
@@ -173,10 +168,10 @@ video {
 
 .menu {
   text-align: left;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding-top: 50px;
-  padding-bottom: 50px
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .menu img {
@@ -185,9 +180,6 @@ video {
 
 .menu-block-top {
   display: flex;
-  width: 1200px;
-  margin: 0;
-  padding: 0;
 }
 
 .menu-block-bottom {
@@ -221,24 +213,23 @@ video {
 }
 
 .Images {
- padding-top: 20px;
- padding-bottom: 30px;
+ padding-bottom: 5%;
 }
 
 .image-logo {
- margin-right: 100px;
- margin-left: 100px;
- width: 50px;
+ padding-right: 10%;
+ padding-left: 10%;
+ height: 50px;
 }
 
 .image-block {
   display: flex;
-  margin-right: 100px;
-  margin-left: 100px;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .image1 img[tabindex]{
-	cursor:pointer;
+  cursor:pointer;
 }
 
 .lb {
@@ -347,8 +338,8 @@ video {
 
 .image-block2 {
   display: flex;
-  margin-right: 100px;
-  margin-left: 100px;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .image6 img {
@@ -403,9 +394,8 @@ video {
 
 .image-block3 {
   display: flex;
-  margin-right: 100px;
-  margin-left: 100px;
-  padding-bottom: 50px;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .image11 img {
@@ -454,9 +444,8 @@ video {
 }
 
 .bunner {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 20px;
+  padding-left: 10%;
+  margin-right: 10%;
 }
 
 .bunner-block {
@@ -509,11 +498,10 @@ video {
 }
 
 .timeaccess img {
-  width: 1200px;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .timeaccess:hover {
@@ -574,21 +562,21 @@ video {
 }
 	
 .header img{
- width: 1420px;
+ width: 100%;
 }
 
 #message .message-image1 img {
-  width: 1200px;
+  width: 80%;
 }
 
 #message .message-image2 img {
-  width: 1200px;
+  width: 80%;
 }
 
 #message .owner-image  {
   text-align: left;
-  margin-left: 100px;
-  margin-top: 20px;
+  margin-left: 10%;
+  margin-top: 5%;
 }
 
 #message .owner-image img {
@@ -604,18 +592,27 @@ video {
   color: #fff;
   font-size: 20px;
   text-align: left;
+  width: 80%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 #message .message-text2 p {
   color: #fff;
   font-size: 20px;
   text-align: left;
+  width: 80%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 #message .message-text3 p {
   color: #fff;
   font-size: 20px;
   text-align: left;
+  width: 80%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 @media screen and (max-width:600px){
@@ -636,41 +633,47 @@ video {
 
 #access .access-logo img {
   width: 400px;
-  padding-top: 50px;
-  padding-left: 110px;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #access .access-text h1 {
   color: #fff;
   text-align: left;
-  padding-top: 50px;
-  padding-left: 100px;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #access .access-text p {
   color: #fff;
   text-align: left;
-  padding-top: 15px;
-  padding-left: 110px;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #access .text-red {
   color: #ff0000;
   text-align: left;
-  padding-left: 110px;
+  padding-left: 10%;
+  padding-right: 10%
 }
 
 #access .access-text2 p {
   color: #fff;
   text-align: left;
-  padding-left: 110px;
-  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
 }
 
 #access .access-image img {
-  width: 1200px;
-  padding-bottom: 50px;
-  padding-left: 110px;
+  width: 80%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #access .access-image:hover {
@@ -684,14 +687,16 @@ video {
 #access .access-logo2 img {
   width: 250px;
   text-align: left;
-  padding-left: 110px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #access .access-text3 p {
   color: #fff;
   text-align: left;
-  padding-left: 110px;
-  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
 }
 
 #access .access-logo3 {
@@ -701,23 +706,26 @@ video {
 #access .access-logo3 img {
   width: 130px;
   text-align: left;
-  padding-left: 110px;
+  padding-left: 10%;
+  padding-right: 10%
 }
 
 #access .access-text4 {
   color: #fff;
   text-align: left;
-  padding-left: 110px;
-  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
 }
 
 #access .map {
- padding-left: 110px;
+ padding-left: 10%;
+ padding-right: 10%
 }
 
 #access .map p {
   text-align: right;
-  padding-right: 120px;
+  padding-right: 10%;
   color: #fff;
 }
 
