@@ -563,6 +563,7 @@ video {
 
 .sa--rotateR {
   transform: rotate(-180deg);
+}
 
 .footer {
   width: 100%;
