@@ -635,6 +635,10 @@ video {
   padding-left: 110px;
 }
 
+.access-image:hover {
+  opacity: 0.6;
+}
+
 .access-logo2 {
   width:250px;
 }
