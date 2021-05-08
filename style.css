@@ -141,7 +141,7 @@ video {
 
 .message img {
   width: 150px;
-  padding-top:　5%;
+  padding-top:　10%;
 }
 
 .text-block {
@@ -454,14 +454,6 @@ video {
   display: flex;
   padding: 0;
   margin: 0;
-}
-
-.takeout img {
-  width: 600px;
-  margin: 0;
-  vertical-align: bottom;
-}
-
 .takeout:hover {
   opacity: 0.6;
 }
@@ -596,6 +588,14 @@ video {
   text-align: left;
   width: 80%;
   padding-right: 10%;
+}
+
+.takeout img {
+  width: 600px;
+  margin: 0;
+  vertical-align: bottom;
+}
+
   padding-left: 10%;
 }
 
