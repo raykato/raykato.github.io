@@ -98,13 +98,13 @@
 }
 
 body {
-  background: url("https://raykato.github.io/main_haikei.png") no-repeat;
+  background: url("https://github.com/raykato/raykato.github.io/main_haikei.png") no-repeat;
   -webkit-text-size-adjust: 100%;
   background-position: bottom;
   background-color: #000;
-  margin: 0px auto;
-  padding: 0px;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 video {
@@ -113,11 +113,13 @@ video {
 
 .sns {
   text-align: center;
+
 }
 
 .sns img {
   width: 30px;
   padding-right: 30px;
+  padding-bottom: 10px;
 }
 
 .infomation {
@@ -136,12 +138,13 @@ video {
 
 .message  {
   text-align: center;
+  padding-top:　50px;
   width: 100%;
 }
 
 .message img {
   width: 150px;
-  padding-top:　10%;
+  padding-top: 50px;
 }
 
 .text-block {
@@ -157,7 +160,6 @@ video {
   padding-right: 10%;
   padding-left: 10%;
 }
-
 .text-link {
   text-align: left;
   padding-right: 10%;
@@ -180,20 +182,20 @@ video {
   width: 100px;
 }
 
+
 .menu-image1 img {
-  width: 80%;
+  width: 1200px;
   padding: 0;
   margin: 0;
   vertical-align: bottom;
 }
 
 .menu-image2 img {
-  width: 80%;
+  width: 1200px;
   padding-top: 5%;
   margin: 0;
   vertical-align: bottom;
 }
-
 
 .Images {
  padding-bottom: 5%;
@@ -212,7 +214,7 @@ video {
 }
 
 .image1 img[tabindex]{
-  cursor:pointer;
+	cursor:pointer;
 }
 
 .lb {
@@ -435,6 +437,14 @@ video {
   display: flex;
   padding: 0;
   margin: 0;
+}
+
+.takeout img {
+  width: 600px;
+  margin: 0;
+  vertical-align: bottom;
+}
+
 .takeout:hover {
   opacity: 0.6;
 }
@@ -535,7 +545,7 @@ video {
   background-color: #a9a9a9;
   margin:0;
 }
-	
+
 .header img{
  width: 100%;
 }
@@ -555,7 +565,7 @@ video {
 }
 
 #message .owner-image img {
-  width: 200px;
+  width: 15%;
 }
 
 #message .owner-image p {
@@ -569,14 +579,6 @@ video {
   text-align: left;
   width: 80%;
   padding-right: 10%;
-}
-
-.takeout img {
-  width: 600px;
-  margin: 0;
-  vertical-align: bottom;
-}
-
   padding-left: 10%;
 }
 
@@ -603,7 +605,7 @@ video {
 }
 
 #message {
-  background: url(https://raykato.github.io/backgrand.png) no-repeat;
+  background: url(https://github.com/raykato/raykato.github.io/backgrand.png) no-repeat;
   background-position: bottom;
   background-color: #000;
   margin: 0px auto;
@@ -616,47 +618,41 @@ video {
 
 #access .access-logo img {
   width: 400px;
-  padding-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 50px;
+  padding-left: 110px;
 }
 
 #access .access-text h1 {
   color: #fff;
   text-align: left;
-  padding-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 50px;
+  padding-left: 100px;
 }
 
 #access .access-text p {
   color: #fff;
   text-align: left;
-  padding-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 15px;
+  padding-left: 110px;
 }
 
 #access .text-red {
   color: #ff0000;
   text-align: left;
-  padding-left: 10%;
-  padding-right: 10%
+  padding-left: 110px;
 }
 
 #access .access-text2 p {
   color: #fff;
   text-align: left;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 5%;
+  padding-left: 110px;
+  padding-bottom: 50px;
 }
 
 #access .access-image img {
-  width: 80%;
-  padding-bottom: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  width: 1200px;
+  padding-bottom: 50px;
+  padding-left: 110px;
 }
 
 #access .access-image:hover {
@@ -664,50 +660,45 @@ video {
 }
 
 #access .access-logo2 {
-  text-align: left;
-  padding-left: 10%;
-  padding-right: 10%;
+  width:250px;
 }
 
 #access .access-logo2 img {
   width: 250px;
+  text-align: left;
+  padding-left: 110px;
 }
 
 #access .access-text3 p {
   color: #fff;
   text-align: left;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 5%;
+  padding-left: 110px;
+  padding-bottom: 50px;
 }
 
 #access .access-logo3 {
-  text-align: left;
-  padding-left: 10%;
-  padding-right: 10%
+  width: 130px;
 }
 
 #access .access-logo3 img {
   width: 130px;
+  text-align: left;
+  padding-left: 110px;
 }
 
 #access .access-text4 {
   color: #fff;
   text-align: left;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 5%;
+  padding-left: 110px;
+  padding-bottom: 50px;
 }
 
 #access .map {
- padding-left: 10%;
- padding-right: 10%
+ padding-left: 110px;
 }
 
 #access .map p {
   text-align: right;
-  padding-right: 5%;
+  padding-right: 10%;
   color: #fff;
 }
-
-
