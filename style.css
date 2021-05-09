@@ -180,39 +180,20 @@ video {
   width: 100px;
 }
 
-.menu-block-top {
-  display: flex;
-}
-
-.menu-block-bottom {
-  display: flex;
-  padding: 0;
-}
 .menu-image1 img {
-  width: 600px;
+  width: 1200px;
   padding: 0;
   margin: 0;
   vertical-align: bottom;
 }
 
 .menu-image2 img {
-  width: 600px;
-  padding: 0;
+  width: 1200px;
+  padding-top: 5%;
   margin: 0;
   vertical-align: bottom;
 }
 
-.menu-image3 img {
-  width: 600px;
-  padding: 0;
-  margin: 0;
-}
-
-.menu-image4 img {
-  width: 600px;
-  padding: 0;
-  margin: 0;
-}
 
 .Images {
  padding-bottom: 5%;
