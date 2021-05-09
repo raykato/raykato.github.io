@@ -98,7 +98,7 @@
 }
 
 body {
-  background: url("https://github.com/raykato/raykato.github.io/main_haikei.png") no-repeat;
+  background: url("https://raykato.github.io/main_haikei.png") no-repeat;
   -webkit-text-size-adjust: 100%;
   background-position: bottom;
   background-color: #000;
@@ -605,7 +605,7 @@ video {
 }
 
 #message {
-  background: url(https://github.com/raykato/raykato.github.io/backgrand.png) no-repeat;
+  background: url(https://raykato.github.io/backgrand.png) no-repeat;
   background-position: bottom;
   background-color: #000;
   margin: 0px auto;
