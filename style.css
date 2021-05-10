@@ -190,11 +190,19 @@ video {
   vertical-align: bottom;
 }
 
+.menu-image1:hover {
+  opacity: 0.6;
+}
+
 .menu-image2 img {
   width: 1200px;
   padding-top: 5%;
   margin: 0;
   vertical-align: bottom;
+}
+
+.menu-image2:hover {
+  opacity: 0.6;
 }
 
 .Images {
