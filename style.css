@@ -803,6 +803,7 @@ video {
 .bunner-left img {
   width: 550px;
   height: 600px;
+　padding-right: 10px;
 }
 
 .bunner-right img {
