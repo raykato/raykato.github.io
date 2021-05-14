@@ -710,3 +710,116 @@ video {
   padding-right: 10%;
   color: #fff;
 }
+
+#drinkmenu {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+#drinkmenu .drinkmenu-logo {
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+#drinkmenu .drinkmenu-logo img {
+  width: 20%;
+}
+
+#drinkmenu .kazari-top {
+  display: flex;
+}
+
+#drinkmenu .kazari-left {
+  padding-left: 10%;
+  padding-right: 35%;
+}
+
+#drinkmenu .kazari-right {
+  padding-right: 10%;
+}
+
+#drinkmenu .coffee h1 {
+  color: #fff;
+  text-align: left;
+  padding-left: 20%;
+  padding-top: 0;
+}
+
+#drinkmenu .text {
+  color: #fff;
+  text-align: left;
+  padding-left: 20%;
+  font-size: 20px;
+}
+
+#drinkmenu .menu {
+  color: #fff;
+  text-align: left;
+  padding-left: 20%;
+  font-size: 25px;
+  padding-top: 0;
+}
+
+#drinkmenu .Nodate h1 {
+  color: #fff;
+  text-align: left;
+  padding-left: 20%;
+}
+
+#drinkmenu .softdrink h1 {
+  color: #fff;
+  text-align: left;
+  padding-left: 20%;
+}
+
+#drinkmenu .Alcohol h1 {
+  color: #fff;
+  text-align: left;
+  padding-left: 20%;
+}
+
+#drinkmenu .Cocktail h1 {
+  color: #fff;
+  text-align: left;
+  padding-left: 20%;
+}
+
+#drinkmenu .kazari-bottom {
+  display: flex;
+}
+
+#drinkmenu .drinkmenu-bunner {
+  display: flex;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#drinkmenu .bunner-left img {
+  width: 550px;
+  height: 600px;
+}
+
+#drinkmenu .bunner-right img {
+  width: 600px;
+}
+
+#drinkmenu .drinkmenu-takeout img {
+  vertical-align: bottom;
+  height: 200px;
+}
+
+#drinkmenu .drinkmenu-delivery img {
+  vertical-align: bottom;
+  height: 200px;
+}
+
+#drinkmenu .drinkmenu-dinner img {
+  height: 200px;
+}
+
