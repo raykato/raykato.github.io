@@ -729,19 +729,6 @@ video {
   width: 20%;
 }
 
-.kazari-top {
-  display: flex;
-}
-
-.kazari-left {
-  padding-left: 10%;
-  padding-right: 35%;
-}
-
-.kazari-right {
-  padding-right: 10%;
-}
-
 #drinkmenu .coffee h1 {
   color: #fff;
   text-align: left;
