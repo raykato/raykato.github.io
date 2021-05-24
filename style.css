@@ -795,6 +795,10 @@ video {
   padding-left: 10px;
 }
 
+.bunner-right:hover {
+  opacity: 0.6;
+}
+
 .drinkmenu-takeout img {
   vertical-align: bottom;
   height: 200px;
