@@ -97,7 +97,7 @@
   width: 100%;
 }
 
-body {
+#index body {
   background: url("https://raykato.github.io/main_haikei.png") no-repeat;
   -webkit-text-size-adjust: 100%;
   background-position: bottom;
@@ -776,10 +776,6 @@ video {
   padding-left: 20%;
 }
 
-.kazari-bottom {
-  display: flex;
-}
-
 .drinkmenu-bunner {
   display: flex;
   padding-right: 10%;
@@ -796,6 +792,7 @@ video {
 
 .bunner-right img {
   width: 600px;
+  padding-left: 10px;
 }
 
 .drinkmenu-takeout img {
