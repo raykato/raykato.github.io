@@ -795,13 +795,13 @@ video {
   padding-left: 10px;
 }
 
-.bunner-right:hover {
-  opacity: 0.6;
-}
-
 .drinkmenu-takeout img {
   vertical-align: bottom;
   height: 200px;
+}
+
+.drinkmenu-takeout:hover {
+  opacity: 0.6;
 }
 
 .drinkmenu-delivery img {
@@ -809,8 +809,16 @@ video {
   height: 200px;
 }
 
+.drinkmenu-delivery:hover {
+  opacity: 0.6;
+}
+
 .drinkmenu-dinner img {
   height: 200px;
+}
+
+.drinkmenu-dinner:hover {
+  opacity: 0.6;
 }
 
 #foodmenu .foodmenu-logo {
