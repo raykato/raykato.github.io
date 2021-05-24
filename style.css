@@ -97,7 +97,7 @@
   width: 100%;
 }
 
-#index {
+body {
   background: url("https://raykato.github.io/main_haikei.png") no-repeat;
   -webkit-text-size-adjust: 100%;
   background-position: bottom;
