@@ -225,6 +225,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   padding-left: 10%;
 }
 
+@media screen and (max-width:740px) {
+.image-block {
+width: auto; /*要素の幅を画面幅に合わせて自動調整*/
+float: none; /*floatを解除*/
+}
+	
 .image1 img[tabindex]{
 	cursor:pointer;
 }
@@ -369,6 +375,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   padding-left: 10%;
 }
 
+@media screen and (max-width:740px) {
+.image-block2 {
+width: auto; /*要素の幅を画面幅に合わせて自動調整*/
+float: none; /*floatを解除*/
+}
+	
 .image6 img {
   width: 240px;
   padding: 0;
