@@ -123,12 +123,6 @@ video {
   padding-bottom: 10px;
 }
 
-@media screen and (max-width:740px) {
-.sns img {
-width: 100%; /*親要素の幅に合わせて自動調整*/
-height: auto; /*横幅に合わせて高さを自動調整*/
-}
-
 .infomation {
   margin-right: 10%;
   margin-left: 10%;
