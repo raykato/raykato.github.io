@@ -123,6 +123,8 @@ video {
   padding-bottom: 10px;
 }
 
+
+
 .infomation {
   margin-right: 10%;
   margin-left: 10%;
@@ -146,6 +148,12 @@ video {
 .message img {
   width: 150px;
   padding-top: 50px;
+}
+
+@media screen and (max-width:740px) {
+.message img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
 }
 
 .text-block {
@@ -191,6 +199,12 @@ video {
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.menu-image1 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .menu-image1:hover {
   opacity: 0.6;
 }
@@ -202,6 +216,12 @@ video {
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.menu-image2 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .menu-image2:hover {
   opacity: 0.6;
 }
