@@ -123,20 +123,15 @@ video {
   padding-bottom: 10px;
 }
 
-
+@media screen and (max-width:740px) {
+.sns img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
 
 .infomation {
   margin-right: 10%;
   margin-left: 10%;
-}
-
-.infomation h1{
-  color: #fff;
-  text-align: center;
-  font-size: 15px;
-  padding: 15px;
-  border: solid 1px #fff;
-  width: 100%;
 }
 
 .message  {
@@ -148,12 +143,6 @@ video {
 .message img {
   width: 150px;
   padding-top: 50px;
-}
-
-@media screen and (max-width:740px) {
-.message img {
-width: 100%; /*親要素の幅に合わせて自動調整*/
-height: auto; /*横幅に合わせて高さを自動調整*/
 }
 
 .text-block {
@@ -310,6 +299,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.image1 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .image1:hover {
   opacity: 0.6;
 }
@@ -319,6 +314,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.image2 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .image2:hover {
   opacity: 0.6;
 }
@@ -328,6 +329,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.image3 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .image3:hover {
   opacity: 0.6;
 }
@@ -337,6 +344,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.image4 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .image4:hover {
   opacity: 0.6;
 }
@@ -346,6 +359,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.image5 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .image5:hover {
   opacity: 0.6;
 }
@@ -362,6 +381,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.image6 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .image6:hover {
   opacity: 0.6;
 }
@@ -372,6 +397,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.image7 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .image7:hover {
   opacity: 0.6;
 }
@@ -382,6 +413,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.image8 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .image8:hover {
   opacity: 0.6;
 }
@@ -392,6 +429,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.image9 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .image9:hover {
   opacity: 0.6;
 }
@@ -402,6 +445,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.image10 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .image10:hover {
   opacity: 0.6;
 }
@@ -417,6 +466,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   padding: 0;
 }
 
+@media screen and (max-width:740px) {
+.image11 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .image11:hover {
   opacity: 0.6;
 }
@@ -424,6 +479,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
 .image12 img {
   width: 240px;
   padding: 0;
+}
+	
+@media screen and (max-width:740px) {
+.image12 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
 }
 
 .image12:hover {
@@ -433,6 +494,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
 .image13 img {
   width: 240px;
   padding: 0;
+}
+	
+@media screen and (max-width:740px) {
+.image13 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
 }
 
 .image13:hover {
@@ -444,6 +511,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   padding: 0;
 }
 
+@media screen and (max-width:740px) {
+.image14 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+
 .image14:hover {
   opacity: 0.6;
 }
@@ -453,6 +526,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   padding: 0;
 }
 
+@media screen and (max-width:740px) {
+.image15 img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .image15:hover {
   opacity: 0.6;
 }
@@ -474,6 +553,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.takeout img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+
 .takeout:hover {
   opacity: 0.6;
 }
@@ -483,6 +568,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   vertical-align: bottom;
 }
 
+@media screen and (max-width:740px) {
+.reserve img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .reserve:hover {
   opacity: 0.6;
 }
@@ -498,6 +589,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   padding: 0;
 }
 
+@media screen and (max-width:740px) {
+.Delivery img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .Delivery:hover {
   opacity: 0.6;
 }
@@ -507,6 +604,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   padding: 0;
 }
 
+@media screen and (max-width:740px) {
+.onlineshop img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .onlineshop:hover {
   opacity: 0.6;
 }
@@ -518,6 +621,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   padding-left: 10%;
 }
 
+@media screen and (max-width:740px) {
+.timeaccess img {
+width: 100%; /*親要素の幅に合わせて自動調整*/
+height: auto; /*横幅に合わせて高さを自動調整*/
+}
+	
 .timeaccess:hover {
   opacity: 0.6;
 }
