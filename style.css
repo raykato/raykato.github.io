@@ -553,6 +553,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   margin: 0;
 }
 
+@media screen and (max-width:740px) {
+.bunner-block {
+width: auto; /*要素の幅を画面幅に合わせて自動調整*/
+float: none; /*floatを解除*/
+}
+	
 .takeout img {
   width: 600px;
   margin: 0;
@@ -590,6 +596,12 @@ height: auto; /*横幅に合わせて高さを自動調整*/
   margin: 0;
 }
 
+@media screen and (max-width:740px) {
+.bunner-block2 {
+width: auto; /*要素の幅を画面幅に合わせて自動調整*/
+float: none; /*floatを解除*/
+}
+	
 .Delivery img {
   width: 600px;
   padding: 0;
