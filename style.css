@@ -1098,7 +1098,7 @@ input[type="text"] , input[type="email"]{
   border-radius: 5px;
 }
 
-.form p {
+form p {
   color: #fff;
 }
 
