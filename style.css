@@ -1053,7 +1053,7 @@ video {
   line-height: 1.5em;
 }
 
-#contact .contact-logo {
+.contact-logo {
   text-align: center;
   margin-top: 30px;
   color: #fff;
@@ -1061,11 +1061,11 @@ video {
   font-size: 25px;
 }
 
-#contact .contact-logo h1{
+.contact-logo h1{
   margin: 0;
 }
 
-#contact .contact-text {
+.contact-text {
   color: #fff;
   text-align: center;
   line-height: 40px;
@@ -1074,11 +1074,11 @@ video {
   margin-top: 0;
 }
 
-#contact form {
+form {
   text-align: center;
 }
 
-#contact input[type="text"] , input[type="email"]{
+input[type="text"] , input[type="email"]{
   width: 300px;
   height: 5px;
   margin-bottom: 30px;
@@ -1089,7 +1089,7 @@ video {
   text-align: center;
 }
 
-#contact textarea {
+.textarea {
   width: 300px;
   margin-bottom: 10px;
   padding: 20px;
@@ -1098,11 +1098,11 @@ video {
   border-radius: 5px;
 }
 
-#contact form p {
+.form p {
   color: #fff;
 }
 
-#contact input[type="submit"] {
+input[type="submit"] {
   width: 80px;
   font-size: 12px;
   margin-bottom: 30px;
