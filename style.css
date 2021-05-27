@@ -1120,19 +1120,36 @@ input[type="submit"] {
 
 .bunner-block {
  display:flex;
- max-width:100%;
+ max-width:80%;
+ margin:0;
+}
+	
+.takeout img {
+  max-width: 40%;
+}
+	
+.reserve img {
+  max-width: 40%;
+}
+
+.bunner-block2 {
+ display:flex;
+ max-width:80%;
  margin:0;
 }
 
-.bunner-block {
- display:flex;
- max-width:100%;
- margin:0;
+.Delivery img {
+  max-width: 40%;
+}
+
+.onlineshop img {
+  max-width: 40%;
+  padding: 0;
 }
 	
 .timeaccess img {
  max-width: 80%;
 }
-	
+
 }
 
