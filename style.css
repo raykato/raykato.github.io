@@ -1162,6 +1162,14 @@ input[type="submit"] {
 .message-text3 p {
  font-size: 2vw;
 }
+
+.message-image1 img {
+ max-width: 100%;
+}
 	
+.message-image2 img {
+ max-width: 100%;
+}
+
 }
 
