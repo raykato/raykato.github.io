@@ -1151,5 +1151,17 @@ input[type="submit"] {
  max-width: 80%;
 }
 
+.message-text1 p {
+ font-size: 2vw;
+}
+	
+.message-text2 p {
+ font-size: 2vw;
+}
+
+.message-text3 p {
+ font-size: 2vw;
+}
+	
 }
 
