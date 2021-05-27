@@ -1109,6 +1109,10 @@ input[type="submit"] {
 
 @media screen and (max-width:600px) {
 /* 画面サイズが600px以下の場合に適用 */
+
+body {
+ width: auto;
+}
 	
 .text-block-innner p{
   font-size: 2vw;
