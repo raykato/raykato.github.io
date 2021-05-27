@@ -1113,15 +1113,34 @@ input[type="submit"] {
 body {
  width: auto;
 }
+
+.message img {
+ max-width: 100%;
 	
 .text-block-innner p{
   font-size: 2vw;
+}
+
+.text-link a{
+ font-size: 2vw;
 }
 	
 .menu img {
  max-width: 100%;
 }
 
+.menu image1 {
+ max-width: 100%;
+}
+	
+.menu image2 {
+ max-width: 100%;
+}
+
+.image-logo {
+ max-width: 100%;
+}
+	
 .bunner-block {
  display: flex;
  max-width: 100%;
