@@ -1106,3 +1106,21 @@ input[type="submit"] {
   font-size: 12px;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width:600px) {
+/* 画面サイズが600px以下の場合に適用 */
+	
+.text-block-innner p{
+  font-size: 2vw;
+}
+	
+video {
+ width: auto;
+}
+	
+.menu img {
+ max-width: 100%;
+}
+
+	
+ 
