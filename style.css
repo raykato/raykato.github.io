@@ -1119,21 +1119,21 @@ body {
 }
 	
 .menu img {
- width: auto;
+ max-width: 100%;
 }
 
 .bunner-block {
  display: flex;
- max-width: auto;
+ max-width: 100%;
  margin: 0;
 }
 	
 .takeout img {
-  width: auto;
+  max-width: 100%;
 }
 	
 .reserve img {
-  width: auto;
+  max-width: 100%;
 }
 
 .bunner-block2 {
@@ -1143,16 +1143,16 @@ body {
 }
 
 .Delivery img {
-  width: auto;
+  max-width: 100%;
 }
 
 .onlineshop img {
-  width: auto;
+  max-width: 100%;
   padding: 0;
 }
 	
 .timeaccess img {
- width: auto;
+ max-width: 100%;
 }
 
 .message-text1 p {
@@ -1168,11 +1168,11 @@ body {
 }
 
 .message-image1 img {
- width: auto;
+ max-width: 100%;
 }
 	
 .message-image2 img {
- width: auto;
+ max-width: 100%;
 }
 
 .header img {
