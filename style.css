@@ -1118,6 +1118,18 @@ input[type="submit"] {
  max-width: 100%;
 }
 
+.bunner-block {
+ display:flex;
+ width:100%;
+ margin:0;
+}
+
+.bunner-block {
+ display:flex;
+ width:100%;
+ margin:0;
+}
+	
 .timeaccess img {
  max-width: 100%;
  padding: 20px 0px;
