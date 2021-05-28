@@ -699,6 +699,12 @@ video {
  padding-bottom: 50px;
 }
 
+#access .map p {
+  text-align: right;
+  padding-right: 10%;
+  color: #fff;
+}
+
 #drinkmenu {
   background-color: #000;
   margin: 0;
@@ -786,7 +792,7 @@ video {
 }
 
 #foodmenu .foodmenu-image {
-  padding: 5% 10%;
+  padding: 5% 20%;
 
 #foodmenu .foodmenu-image img {
   width: 50%;
