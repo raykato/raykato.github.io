@@ -791,12 +791,12 @@ video {
 }
 
 #foodmenu .foodmenu-image {
-  padding: 5% 10%;
+  padding-top: 5%;
 　text-align: center;
 }
 
 #foodmenu .foodmenu-image img {
-  width: 50%;
+  width: 60%;
 }
 
 .contact-logo {
