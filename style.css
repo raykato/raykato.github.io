@@ -719,11 +719,13 @@ video {
 
 #drinkmenu .drinkmenu-image {
   text-align: center;
+  adding-right: 10%;
+  padding-left: 10%;
+  padding-top: 5%;
 }
 
 #drinkmenu .drinkmenu-image img {
   width: 50%;
-  padding: 5% 10%;
 }
 
 .drinkmenu-bunner {
@@ -783,9 +785,11 @@ video {
   width: 20%;
 }
 
+#foodmenu .foodmenu-image {
+  padding: 5% 10%;
+
 #foodmenu .foodmenu-image img {
   width: 50%;
-  padding: 5% 20%;
 }
 
 .contact-logo {
