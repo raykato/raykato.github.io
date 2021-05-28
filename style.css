@@ -703,6 +703,7 @@ video {
   text-align: right;
   padding-right: 10%;
   color: #fff;
+　text-decoration: none;
 }
 
 #drinkmenu {
@@ -725,8 +726,6 @@ video {
 
 #drinkmenu .drinkmenu-image {
   text-align: center;
-  adding-right: 10%;
-  padding-left: 10%;
   padding-top: 5%;
 }
 
@@ -792,7 +791,7 @@ video {
 }
 
 #foodmenu .foodmenu-image {
-  padding: 5% 20%;
+  padding: 5% 10%;
 }
 
 #foodmenu .foodmenu-image img {
