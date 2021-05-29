@@ -861,11 +861,11 @@ body {
 }
 	
 .sns img {
- max-width: 50%;
+ max-width: 3vw%;
 }
 	
 .message img {
- max-width: 50%;
+ max-width: 5vw;
 }
 	
 .text-block-innner p{
@@ -877,7 +877,7 @@ body {
 }
 	
 .menu img {
- max-width: 100%;
+ max-width: 5vw;
 }
 
 .menu-image1 img {
