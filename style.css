@@ -601,10 +601,6 @@ video {
   padding-left: 10%;
 }
 
-@media screen and (max-width:600px){
-/*画面サイズが600px以下の場合に適用 */
-}
-
 #message {
   background: url(https://raykato.github.io/backgrand.png) no-repeat;
   background-position: bottom;
@@ -790,12 +786,13 @@ video {
   width: 20%;
 }
 
-#foodmenu .foodmenu-image {
-　text-align: center;
+.food-menu {
+  text-align: center;
 }
 
-#foodmenu .foodmenu-image img {
-  width: 60%;
+.food-menu img {
+  width: 800px;
+  padding: 5% 10%;
 }
 
 .contact-logo {
