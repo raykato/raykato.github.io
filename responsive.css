@@ -1,0 +1,118 @@
+@media screen and (max-width:600px) {
+
+.sns img {
+  width: 20px;
+}
+
+.message img  {
+  width: 30%;
+  padding-top: 5%;
+}
+
+.text-block-innner p {
+  width: 80%;
+}
+
+.menu img {
+  width: 20%;
+}
+
+.menu-image1 img {
+  width: 100%;
+}
+
+.menu-image2 img {
+  width: 100%;
+}
+
+.image-logo img{
+  width: 35%;
+}
+
+.header img {
+  width: 100%;
+}
+
+#message .owner-image p {
+  font-size: 2vw;
+}
+
+#message .owner-image {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#message .owner-image img{
+  width: 50%;
+  padding-top: 10%;
+}
+
+#message .owner-image p {
+  text-align: center;
+  font-size: 5vw;
+  padding-bottom: 5%;
+}
+
+#access .access {
+  width: 100%;
+}
+#access .access-logo img {
+  width: 60%;
+}
+
+#access .access-text h1 {
+  font-size: 5vw;
+}
+
+#access .access-text p {
+  font-size: 4vw;
+}
+
+#access .text-red {
+  font-size: 4vw;
+}
+
+#access .access-text2 p {
+  font-size: 4vw;
+}
+
+#access  .access-image img {
+  width: 80%;
+}
+
+#access .access-logo2 img {
+  width: 50%;
+}
+
+#access .access-text4{
+  font-size: 4vw;
+}
+
+#access .access-logo3 img {
+  width: 30%;
+}
+
+#access .access-text4 {
+  font-size: 4vw;
+}
+#access .googlemap {
+  width: 100%;
+}
+
+#access .map p {
+  text-align: center;
+  font-size: 4vw;
+}
+
+#drinkmenu .drinkmenu-logo img{
+  width: 30%;
+}
+
+#drinkmenu .drinkmenu-image img {
+  width: 80%;
+}
+
+.bunner-left img {
+  width: 100%;
+}
