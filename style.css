@@ -1001,6 +1001,10 @@ body {
 .image15 img {
  max-width: 100%;
 }
+
+.header {
+ width: auto;
+}
 	
 }
 
