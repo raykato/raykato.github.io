@@ -786,11 +786,11 @@ video {
   width: 20%;
 }
 
-.food-menu {
+.foodmenu-image {
   text-align: center;
 }
 
-.food-menu img {
+.foodmenu-image img {
   width: 800px;
   padding: 5% 10%;
 }
