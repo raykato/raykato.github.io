@@ -854,7 +854,7 @@ input[type="submit"] {
 /* 画面サイズが600px以下の場合に適用 */
 
 body {
- width: 100%;
+ max-width: 100%;
  padding-top: 58.3333333%;
  background: url(https://raykato.github.io/main_haikei.png") no-repeat;
  background-size: cover;
@@ -878,9 +878,17 @@ body {
 }
 	
 .menu img {
- max-width: 50%;
+ max-width: 100%;
 }
-	
+
+.menu-image1 img {
+ max-width: 100%;
+}
+
+.menu-image2 img {
+ max-width: 100%;
+}
+
 .image-logo {
  max-width: 50%;
 }
@@ -1000,10 +1008,6 @@ body {
 	
 .image15 img {
  max-width: 100%;
-}
-
-.header {
- width: auto;
 }
 	
 }
