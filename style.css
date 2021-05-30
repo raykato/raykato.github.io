@@ -167,7 +167,7 @@ video {
   padding-right: 10%;
   padding-left: 10%;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 
 .menu img {
@@ -185,6 +185,10 @@ video {
   vertical-align: bottom;
 }
 
+.menu-image1:hover {
+  opacity: 0.6;
+}
+
 .menu-image2 {
   padding-right: 10%;
   padding-left: 10%;
@@ -192,9 +196,13 @@ video {
 
 .menu-image2 img {
   width: 100%;
-  padding-top: 5%;
+  padding-top: 2%;
   margin: 0;
   vertical-align: bottom;
+}
+
+.menu-image2:hover {
+  opacity: 0.6;
 }
 
 .Images {
