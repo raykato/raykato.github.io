@@ -1,7 +1,16 @@
 @media screen and (max-width:600px) {
 
+video {
+  width: 100%;
+}
+
+.sns {
+  text-align: center;
+  padding: 0;
+}
+
 .sns img {
-  width: 20px;
+  width: 6%;
 }
 
 .message img  {
@@ -9,28 +18,178 @@
   padding-top: 5%;
 }
 
-.text-block-innner p {
-  width: 80%;
+.text-block-innner {
+  padding: 2% 5%;
 }
 
-.menu img {
-  width: 20%;
+.text-block-innner p {
+  width: 100%;
+  padding: 0;
+  font-size: 5vw;
+}
+
+.text-link  {
+  padding: 0;
+}
+
+.menu {
+  padding: 5% 5%;
+}
+
+.menu-image1 {
+  padding: 0% 5%;
 }
 
 .menu-image1 img {
   width: 100%;
 }
 
+.menu-image2 {
+  padding: 2% 5%;
+}
+
 .menu-image2 img {
   width: 100%;
 }
 
+.image-block {
+  display: flex;
+  padding: 0% 5%;
+}
+
+.image1 img {
+  width: 100%;
+}
+.image2 img {
+  width: 100%;
+}
+
+.image3 img {
+  width: 100%;
+}
+
+.image4 img {
+  width: 100%;
+}
+
+.image5 img {
+  width: 100%;
+}
+
+.image-block2 {
+  display: flex;
+  padding: 0% 5%;
+}
+
+.image6 img {
+  width: 100%;
+}
+
+.image7 img {
+  width: 100%;
+}
+
+.image8 img {
+  width: 100%;
+}
+
+.image9 img {
+  width: 100%;
+}
+
+.image10 img {
+  width: 100%;
+}
+
+.image-block3 {
+  display: flex;
+  padding: 0% 5%;
+}
+
+.image11 img {
+  width: 100%;
+}
+
+.image12 img {
+  width: 100%;
+}
+
+.image13 img {
+  width: 100%;
+}
+
+.image14 img {
+  width: 100%;
+}
+
+.image15 img {
+  width: 100%;
+}
+
+.bunner {
+  padding: 5%;
+  margin: 0;
+}
+
+.bunner-block {
+  display: block;
+}
+
+.takeout img {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.reserve img {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.bunner-block2 {
+  display: block;
+  padding: 0;
+}
+
+.Delivery img {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.onlineshop img {
+  width: 100%;
+}
+
+.timeaccess {
+  padding: 5%;
+}
+
+.timeaccess img {
+  width: 100%;
+  padding: 0;
+}
+
+.menu img {
+  width: 20%;
+}
+
+.image-logo {
+  padding: 5%;
+}
+
 .image-logo img{
-  width: 35%;
+  width: 25%;
 }
 
 .header img {
   width: 100%;
+}
+
+.lb img {
+  width: 100%;
+}
+
+.imageblock1 {
+  display: flex;
 }
 
 #message .owner-image p {
