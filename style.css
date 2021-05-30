@@ -709,8 +709,11 @@ video {
 #access .map p {
   text-align: right;
   padding-bottom: 5%;
-  color: #fff;
-  
+  color: #fff; 
+}
+
+#access .a {
+  text-decoration: none;
 }
 
 #drinkmenu {
