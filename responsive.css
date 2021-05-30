@@ -42,7 +42,9 @@ video {
 }
 
 .menu-image1 {
-  padding-bottom: 3%
+  padding-bottom: 3%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .menu-image1 img {
@@ -51,6 +53,8 @@ video {
 
 .menu-image2 {
   padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .menu-image2 img {
