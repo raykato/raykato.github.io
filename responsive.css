@@ -10,11 +10,12 @@ video {
 }
 
 .sns img {
-  width: 6%;
+  width: 7%;
+  padding-right: 2%;
 }
 
 .message img  {
-  width: 30%;
+  width: 25%;
   padding-top: 5%;
 }
 
