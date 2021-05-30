@@ -243,7 +243,7 @@ video {
 }
 
 #access .access-logo3 img {
-  width: 40%;
+  width: 30%;
 }
   
 #access .access-text4{
@@ -295,14 +295,10 @@ video {
   padding: 5%;
 }
 
-#foodmenu {
-  width: 100%;
-}
 
 #foodmenu .foodmenu-logo img {
   width: 25%;
 }
-
 
 #foodmenu .foodmenu-image img {
   width: 70%;
