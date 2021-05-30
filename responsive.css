@@ -281,27 +281,23 @@ video {
 }
 
 .bunner-left img {
-  width: 98%;
-  padding-left: 1%;
+  width: 90%;
+  padding: 5%;
 }
 
 .drinkmenu-takeout img {
-  width: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 0;
+  width: 90%;
+  padding: 5%;
 }
 
 .drinkmenu-delivery img {
-  width: 100%;
-  padding-bottom: 5%;
-  padding-left: 0;
+  width: 90%;
+  padding: 5%;
 }
 
 .drinkmenu-dinner img {
-  width: 100%;
-  padding-bottom: 5%;
-  padding-left: 0;
+  width: 90%;
+  padding: 5%;
 }
 
 #foodmenu {
@@ -309,15 +305,12 @@ video {
 }
 
 #foodmenu .foodmenu-logo img {
-  width: 20%;
+  width: 25%;
 }
 
-#foodmenu .foodmenu-image {
-  padding: 0;
-}
 
 #foodmenu .foodmenu-image img {
-  width: 60%;
+  width: 70%;
 }
 
 #contact .contact-logo h1 {
