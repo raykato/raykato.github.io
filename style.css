@@ -105,7 +105,7 @@ html {
   text-align: center;
 }
 
-body {
+#top {
   background: url("images/main_haikei.png") no-repeat;
   background-position: bottom;
   background-color: #000;
@@ -124,9 +124,8 @@ video {
 }
 
 .sns img {
-  width: 35px;
-  padding-right: 30px;
-  padding-bottom: 10px;
+  width: 3%;
+  padding-right: 3%;
 }
 
 .message  {
@@ -172,19 +171,27 @@ video {
 }
 
 .menu img {
-  width: 100px;
+  width: 10%;
 }
 
+.menu-image1 {
+  padding-right: 10%;
+  padding-left: 10%;
+}
 
 .menu-image1 img {
-  width: 1200px;
-  padding: 0;
+  width: 100%;
   margin: 0;
   vertical-align: bottom;
 }
 
+.menu-image2 {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
 .menu-image2 img {
-  width: 1200px;
+  width: 100%;
   padding-top: 5%;
   margin: 0;
   vertical-align: bottom;
@@ -197,7 +204,12 @@ video {
 .image-logo {
  padding-right: 10%;
  padding-left: 10%;
- height: 50px;
+ padding-top: 5%;
+ padding-bottom: 2%;
+}
+
+.image-logo img {
+  width: 10%;
 }
 
 .image-block {
@@ -227,7 +239,7 @@ video {
 }
 
 .lb img {
-    width: auto !important;
+    width: 70% !important;
     max-height: 100%!important;
     cursor: pointer;
 }
@@ -270,7 +282,7 @@ video {
 }
 
 .image1 img {
-  width: 240px;
+  width: 100%;
   vertical-align: bottom;
 }
 
@@ -279,7 +291,7 @@ video {
 }
 
 .image2 img {
-  width: 240px;
+  width: 100%;
   vertical-align: bottom;
 }
 
@@ -288,7 +300,7 @@ video {
 }
 
 .image3 img {
-  width: 240px;
+  width: 100%;
   vertical-align: bottom;
 }
 
@@ -297,7 +309,7 @@ video {
 }
 
 .image4 img {
-  width: 240px;
+  width: 100%;
   vertical-align: bottom;
 }
 
@@ -306,7 +318,7 @@ video {
 }
 
 .image5 img {
-  width: 240px;
+  width: 100%;
   vertical-align: bottom;
 }
 
@@ -321,7 +333,7 @@ video {
 }
 
 .image6 img {
-  width: 240px;
+  width: 100%;
   padding: 0;
   vertical-align: bottom;
 }
@@ -331,7 +343,7 @@ video {
 }
 
 .image7 img {
-  width: 240px;
+  width: 100%;
   padding: 0;
   vertical-align: bottom;
 }
@@ -341,7 +353,7 @@ video {
 }
 
 .image8 img {
-  width: 240px;
+  width: 100%;
   padding: 0;
   vertical-align: bottom;
 }
@@ -351,7 +363,7 @@ video {
 }
 
 .image9 img {
-  width: 240px;
+  width: 100%;
   padding: 0;
   vertical-align: bottom;
 }
@@ -361,7 +373,7 @@ video {
 }
 
 .image10 img {
-  width: 240px;
+  width: 100%;
   padding: 0;
   vertical-align: bottom;
 }
@@ -377,7 +389,7 @@ video {
 }
 
 .image11 img {
-  width: 240px;
+  width: 100%;
   padding: 0;
 }
 
@@ -386,7 +398,7 @@ video {
 }
 
 .image12 img {
-  width: 240px;
+  width: 100%;
   padding: 0;
 }
 
@@ -395,7 +407,7 @@ video {
 }
 
 .image13 img {
-  width: 240px;
+  width: 100%;
   padding: 0;
 }
 
@@ -404,7 +416,7 @@ video {
 }
 
 .image14 img {
-  width: 240px;
+  width: 100%;
   padding: 0;
 }
 
@@ -413,7 +425,7 @@ video {
 }
 
 .image15 img {
-  width: 240px;
+  width: 100%;
   padding: 0;
 }
 
@@ -433,7 +445,7 @@ video {
 }
 
 .takeout img {
-  width: 600px;
+  width: 100%;
   margin: 0;
   vertical-align: bottom;
 }
@@ -443,7 +455,7 @@ video {
 }
 
 .reserve img {
-  width: 600px;
+  width: 100%;
   vertical-align: bottom;
 }
 
@@ -458,7 +470,7 @@ video {
 }
 
 .Delivery img {
-  width: 600px;
+  width: 100%;
   padding: 0;
 }
 
@@ -467,7 +479,7 @@ video {
 }
 
 .onlineshop img {
-  width: 600px;
+  width: 100%;
   padding: 0;
 }
 
@@ -475,11 +487,15 @@ video {
   opacity: 0.6;
 }
 
-.timeaccess img {
+.timeaccess {
   padding-top: 10%;
   padding-bottom: 5%;
   padding-right: 10%;
   padding-left: 10%;
+}
+
+.timeaccess img {
+  width: 100%;
 }
 
 .timeaccess:hover {
@@ -764,6 +780,12 @@ video {
   height: 100%;
 }
 
+#foodmenu {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
 #foodmenu .foodmenu-logo {
   padding-right: 10%;
   padding-left: 10%;
@@ -776,12 +798,12 @@ video {
   width: 20%;
 }
 
-.food-menu {
+#foodmenu .foodmenu-image {
   text-align: center;
 }
 
-.food-menu img {
-  width: 800px;
+#foodmenu .foodmenu-image img {
+  width: 50%;
   padding: 5% 10%;
 }
 
