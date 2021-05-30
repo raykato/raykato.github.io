@@ -198,10 +198,18 @@ video {
   display: flex;
 }
 
-#message .owner-image p {
-  font-size: 2vw;
+#message .message-text1 p {
+  font-size: 4vw;
 }
 
+#message .message-text2 p {
+  font-size: 4vw;
+}
+  
+#message .message-text3 p {
+  font-size: 4vw;
+}
+  
 #message .owner-image {
   text-align: center;
   padding: 0;
