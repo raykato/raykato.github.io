@@ -38,7 +38,7 @@ video {
 }
 
 .menu-image1 {
-  padding: 0% 5%;
+  padding-bottom: 3%
 }
 
 .menu-image1 img {
@@ -46,7 +46,7 @@ video {
 }
 
 .menu-image2 {
-  padding: 2% 5%;
+  padding-bottom: 5%;
 }
 
 .menu-image2 img {
@@ -61,6 +61,7 @@ video {
 .image1 img {
   width: 100%;
 }
+  
 .image2 img {
   width: 100%;
 }
