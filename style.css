@@ -488,10 +488,7 @@ video {
 }
 
 .timeaccess {
-  padding-top: 10%;
-  padding-bottom: 5%;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding: 5% 10%;
 }
 
 .timeaccess img {
