@@ -159,6 +159,10 @@ video {
 .onlineshop img {
   width: 100%;
 }
+  
+.timeaccess {
+  padding: 0;
+}
 
 .timeaccess img {
   width: 100%;
