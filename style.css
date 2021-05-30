@@ -609,10 +609,6 @@ video {
   padding-left: 10%;
 }
 
-@media screen and (max-width:600px){
-/*画面サイズが600px以下の場合に適用 */
-}
-
 #message {
   background: url(images/backgrand.png) no-repeat;
   background-position: bottom;
@@ -769,15 +765,27 @@ video {
   height: 100%;
 }
 
+.drinkmenu-takeout:hover {
+  opacity: 0.6;
+}
+
 .drinkmenu-delivery img {
   vertical-align: bottom;
   width: 100%;
   height: 100%;
 }
 
+.drinkmenu-delivery:hover {
+  opacity: 0.6;
+}
+
 .drinkmenu-dinner img {
   width: 100%;
   height: 100%;
+}
+
+.drinkmenu-dinner:hover {
+  opacity: 0.6;
 }
 
 #foodmenu {
