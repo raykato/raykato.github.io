@@ -5,7 +5,7 @@
 }
 
 .message img  {
-  width: 20%;
+  width: 30%;
   padding-top: 5%;
 }
 
@@ -33,18 +33,10 @@
   width: 100%;
 }
 
-#message .message-text1 p {
-  font-size: 3vw;
+#message .owner-image p {
+  font-size: 2vw;
 }
-  
-#message .message-text2 p {
-  font-size: 3vw;
-}
-  
-#message .message-text3 p {
-  font-size: 3vw;
-}
-  
+
 #message .owner-image {
   text-align: center;
   padding: 0;
@@ -66,7 +58,7 @@
   width: 100%;
 }
 #access .access-logo img {
-  width: 70%;
+  width: 60%;
 }
 
 #access .access-text h1 {
@@ -90,7 +82,7 @@
 }
 
 #access .access-logo2 img {
-  width: 70%;
+  width: 50%;
 }
 
 #access .access-text4{
@@ -98,7 +90,7 @@
 }
 
 #access .access-logo3 img {
-  width: 70%;
+  width: 30%;
 }
 
 #access .access-text4 {
@@ -126,7 +118,7 @@
 
 .drinkmenu-bunner {
   display: block;
-  padding: 5%;
+  padding: 0;
 }
 
 .bunner-left img {
@@ -151,4 +143,43 @@
   width: 100%;
   padding-bottom: 5%;
   padding-left: 0;
+}
+
+#foodmenu {
+  width: 100%;
+}
+
+#foodmenu .foodmenu-logo img {
+  width: 20%;
+}
+
+#foodmenu .foodmenu-image {
+  padding: 0;
+}
+
+#foodmenu .foodmenu-image img {
+  width: 60%;
+}
+
+#contact .contact-logo h1 {
+  font-size: 8vw;
+}
+
+#contact .contact-text {
+  font-size: 4vw;
+}
+
+#contact input[type="text"] , input[type="email"]{
+  width: 80%;
+  height: 5%;
+}
+
+#contact textarea {
+  width: 80%;
+  height: 30%;
+}
+
+#contact input[type="submit"] {
+  width: 30%;
+  height: 5%;
 }
