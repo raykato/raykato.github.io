@@ -808,14 +808,7 @@ video {
 }
 
 #contact {
- background-color: #000;
-
-#contact .contact-logo {
-  text-align: center;
-  margin-top: 30px;
-  color: #fff;
-  font-family: serif;
-  font-size: 25px;
+  background-color: #000;
 }
 
 #contact .contact-logo h1{
@@ -836,7 +829,7 @@ video {
 }
 
 #contact input[type="text"] , input[type="email"]{
-  width: 300px;
+  width: 30%;
   height: 5px;
   margin-bottom: 30px;
   padding: 20px;
@@ -847,12 +840,13 @@ video {
 }
 
 #contact textarea {
-  width: 300px;
+  width: 30%;
   margin-bottom: 10px;
   padding: 20px;
   font-size: 18px;
   border: 1px solid #dee7ec;
   border-radius: 5px;
+  background-color: #fff;
 }
 
 #contact form p {
@@ -860,7 +854,8 @@ video {
 }
 
 #contact input[type="submit"] {
-  width: 80px;
+  width: 10%;
+  height: 7%;
   font-size: 12px;
   margin-bottom: 30px;
 }
