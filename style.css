@@ -710,9 +710,10 @@ video {
   text-align: right;
   padding-bottom: 5%;
   color: #fff; 
+  text-decoration: none;
 }
 
-#access a {
+#access .map a {
   text-decoration: none;
 }
 
