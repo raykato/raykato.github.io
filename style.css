@@ -820,10 +820,13 @@ video {
   background-color: #000;
 }
 
+#contact .contact-logo {
+  padding-top: 10%;
+}
+
 #contact .contact-logo h1{
   text-align: center;
   color: #fff;
-  padding-top: 10%;
 }
 
 #contact .contact-text {
@@ -852,6 +855,7 @@ video {
 
 #contact textarea {
   width: 30%;
+  height: 20%;
   margin-bottom: 10px;
   padding: 20px;
   font-size: 18px;
