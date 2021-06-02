@@ -546,15 +546,10 @@ video {
   transform: rotate(-180deg);
 }
 
-.footer p {
-  color: #fff;
+.footer img {
   text-align: center;
 　text-decoration: none;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #a9a9a9;
-  margin:0;
 }
 
 .header img{
