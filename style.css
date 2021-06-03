@@ -97,10 +97,6 @@
   width: 100%;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-
 #top {
   background: url("https://raykato.github.io/main_haikei.png") no-repeat;
   background-position: bottom;
@@ -820,6 +816,8 @@ video {
 
 #contact {
   background-color: #000;
+  padding: 0;
+  margin: 0;
 }
 
 #contact .contact-logo {
