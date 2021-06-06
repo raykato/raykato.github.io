@@ -209,6 +209,46 @@ video {
 .imageblock1 {
   display: flex;
 }
+  
+.sa {
+  transition: unset;
+}
+
+.sa.show {
+  transform: unset;
+}
+
+.sa--lr {
+  transform: unset;
+}
+
+.sa--rl {
+  transform: unset;
+}
+
+.sa--up {
+  transform: unset;
+}
+
+.sa--down {
+  transform: unset;
+}
+
+.sa--scaleUp {
+  transform: unset;
+}
+
+.sa--scaleDown {
+  transform: unset;
+}
+
+.sa--rotateL {
+  transform: unset;
+}
+
+.sa--rotateR {
+  transform: unset;
+}
 
 #message .message-text1 p {
   font-size: 4vw;
