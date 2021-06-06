@@ -214,6 +214,20 @@
            <a href="https://raykato.github.io/access.html"><img src="https://raykato.github.io/open&access1200x152.png" alt="営業時間"></a>
          </div>
        </div>
+          
+       <script>
+        var scrollAnimationElm = document.querySelectorAll('.sa');
+        var scrollAnimationFunc = function() {
+        for(var i = 0; i < scrollAnimationElm.length; i++) {
+        var triggerMargin = 300;
+        if (window.innerHeight > scrollAnimationElm[i].getBoundingClientRect().top + triggerMargin) {
+        scrollAnimationElm[i].classList.add('show');
+        }
+       }
+      }
+       window.addEventListener('load', scrollAnimationFunc);
+       window.addEventListener('scroll', scrollAnimationFunc);
+      </script>
         
        <div class="footer">
          <img src="https://raykato.github.io/footer1200x83.png" alt="footer">
