@@ -145,9 +145,12 @@ video {
   margin: 0;
 }
 
+.timeaccess {
+ padding: 2% 5%;
+}
+  
 .timeaccess img {
   width: 100%;
-  padding: 2% 5%;
 }
   
 .footer img{
