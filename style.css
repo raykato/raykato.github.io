@@ -545,6 +545,7 @@ video {
 .footer p {
   text-align: center;
   color: #fff;
+  margin: 0;
 }
 
 .header img{
