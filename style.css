@@ -537,6 +537,7 @@ video {
 .footer {
  background: #808080;
  width: 100%;
+ height: 10%;
 }
 
 .footer p {
