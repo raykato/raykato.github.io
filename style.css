@@ -534,10 +534,13 @@ video {
   transform: rotate(-180deg);
 }
 
+.footer {
+ background: #808080；
+}
+
 .footer p {
   text-align: center;
   width: 100%;
-  background: #808080；
 }
 
 .header img{
