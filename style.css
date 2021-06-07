@@ -536,11 +536,11 @@ video {
 
 .footer {
  background: #808080；
+ width: 100%;
 }
 
 .footer p {
   text-align: center;
-  width: 100%;
   color: #fff;
 }
 
