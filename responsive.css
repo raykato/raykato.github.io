@@ -181,12 +181,14 @@ video {
 .imageblock1 {
   display: flex;
 }
-  
+ 
 .sa {
+  opacity: 0;
   transition: none;
 }
 
 .sa.show {
+  opacity: 0;
   transform: none;
 }
 
