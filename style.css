@@ -1,0 +1,873 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+}
+
+p {
+	font-family: "ヒラギノ角ゴ ProN";
+	margin: 0;
+	padding: 0;
+}
+
+.top_logo {
+	text-align: center;
+}
+
+.top_logo img {
+	width: 150px;
+}
+
+.top_text {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.top_text img {
+	width: 300px;
+}
+
+.btn_box {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 25%;
+}
+
+.top_btn {
+	width: 200px;
+	padding: 15px;
+	background: #000;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.top_btn a {
+	color: #fff;
+}
+
+
+/* ナビゲーション
+-----------------------------------*/
+.header {
+	background: var(--background-navbar);
+	width: 100%;
+	height: 52px;
+}
+
+/* Nav items */
+.menu {
+	list-style: none;
+  	position: fixed;
+  	width: 30%;
+  	height: 100%;
+  	top: 0;
+  	margin-top: 52px;
+  	padding: 0 0 10px 0;
+  	clear: both;
+  	background: var(--background-navbar);
+  	transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+  	transform: scale(1, 0);
+  	transform-origin: top;
+}
+
+/* Hamburger menu button */
+.menu-btn:checked ~ .menu {
+	transform: scale(1, 1);
+	transform-origin: top;
+	transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+	margin-top: 100px;
+}
+
+/* Hamburger menbu text */
+.menu a {
+  	text-decoration: none;
+  	font-weight: 500;
+  	letter-spacing: 2px;
+  	font-size: 16px;
+  	text-transform: capitalize;
+  	color: #000;
+  	opacity: 0;
+  	transition: 0.5s;
+  	display: inline-block;
+  	transition: .3s;
+}
+
+.menu a:hover{
+  	transform: rotate(5deg);
+}
+
+
+.menu li {
+  	border-top: 1px solid rgb(75, 75, 75);
+  	padding: 15px 0;
+  	margin: 0 54px;
+  	opacity: 0;
+  	transition: 0.5s;
+}
+
+.menu-btn:checked ~ .menu a,
+.menu-btn:checked ~ .menu li {
+  	opacity: 1;
+  	transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.2s;
+}
+
+.menu-btn {
+  	display: none;
+}
+
+.menu-icon {
+	display: inline-block;
+	position: fixed;
+	cursor: pointer;
+	padding: 30px 14px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.navicon {
+  	background: #000;
+  	display: block;
+  	height: 3px;
+  	width: 26px;
+  	position: relative;
+  	transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+}
+
+.navicon:before,
+.navicon:after {
+  	content: "";
+  	display: block;
+ 	height: 100%;
+  	width: 100%;
+  	position: absolute;
+  	background: #000;
+  	transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+}
+
+.navicon:before {
+  	top: 9px;
+}
+
+.navicon:after {
+  	bottom: 9px;
+}
+
+/* Hamburger Menu Animation Start */
+.menu-btn:checked ~ .menu-icon .navicon:before {
+  	transform: rotate(-45deg);
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:after {
+  	transform: rotate(45deg);
+}
+
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before {
+  	top: 0;
+}
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  	bottom: 0;
+}
+
+.menu-btn:checked ~ .menu-icon .navicon {
+  	background: rgba(0, 0, 0, 0);
+  	transition: 0.2192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+}
+/* Hamburger Menu Animation End */
+
+/* Navbar Container */
+.navtext-container {
+  	width: 100%;
+  	height: 52px;
+  	position: absolute;
+  	box-sizing: border-box;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+/* Navbar Text */
+.navtext {
+  	position: absolute;
+  	margin-top: 35px;
+}
+
+.navtext_top{
+  	position: absolute;
+  	margin-top: 150px;
+}
+
+.navtext img {
+	width: 90px;
+}
+
+.navtext_top img {
+	width: 250px;
+}
+
+.contents {
+	margin: 10% 20%;
+}
+
+.icon {
+	text-align: center;
+}
+
+.design {
+	margin-bottom: 20%;
+}
+
+.logo {
+	display: flex;
+	align-items: center; /* 垂直中心 */
+	justify-content: left;
+	margin-top: 70px;
+}
+
+.logo:before {
+	border-top: 2px solid;
+	content: "";
+	width: 20em; /* 線の長さ */
+}
+
+.logo:before {
+	margin-right: 1em; /* 文字の右隣 */
+}
+
+.de_ig {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.de_ig img {
+	filter: grayscale(100%);
+}
+
+.de_ig img:hover {
+	filter: grayscale(0);
+	transition: 0.3s;
+}
+
+#index span {
+	font-family: "Arial Black";
+	font-size: 30px;
+}
+
+p.left {
+	font-family: monospace;
+	font-size: 20px;
+	display: inline-block;
+  	text-align: left;
+	width: 60%;
+}
+
+.works {
+	margin-bottom: 20%;
+}
+
+.logo_02 {
+	display: flex;
+	align-items: center; /* 垂直中心 */
+	justify-content: right;
+	margin-top: 70px;
+}
+
+.logo_02:after {
+	border-top: 2px solid;
+	content: "";
+	width: 20em; /* 線の長さ */
+}
+
+.logo_02:after {
+	margin-left: 1em; /* 文字の右隣 */
+}
+
+.wo_ig {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.wo_ig img {
+	width: 60%;
+	filter: grayscale(100%);
+}
+
+.wo_ig img:hover {
+	filter: grayscale(0);
+	transition: 0.3s;
+}
+
+.image_link {
+	display:block; 
+	position:relative;
+	text-decoration:none;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.image_link img {
+	display:block;
+	width:100%;
+}
+
+.image_link:before {
+	content:"";
+	display:block;
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:2;
+	background:#000;/*好みの色に変えてください。*/
+	opacity:0;
+	transition:0.3s;
+}
+
+.image_link:after {
+	content:"visit the site";/*好みの文章に変更してください。*/
+	display:block;
+	color:#fff;
+	line-height:48px;
+	width:180px;
+	border:solid 1px #fff;
+	border-radius:5px;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-1em;
+	margin-left:-90px;
+	opacity:0;
+	z-index:3;
+	transition:0.3s;
+	font-weight:bold;
+	letter-spacing:0.2em;
+}
+
+.image_link:hover:before {
+	opacity:0.5;
+}
+
+.image_link:hover:after {
+	opacity:1;
+	margin-top:-0.5em;
+}
+
+.contact {
+	width: 200px;
+	padding: 15px;
+	text-align: center;
+	background: #000;
+	border-radius: 15px;
+	margin: 0 auto;
+}
+
+.contact:hover {
+	background: #fff;
+	border: 2px solid #000;
+}
+
+.contact a {
+	color: #fff;
+	font-family: "Arial Black";
+	text-decoration: none;
+}
+
+.contact a:hover {
+	color: #000;
+}
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+.slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width:100%;
+    margin:0 auto;
+}
+
+.slider img {
+    width:auto;/*スライダー内の画像を60vwにしてレスポンシブ化*/
+    height:auto;
+}
+
+.slider .slick-slide {
+  transform: scale(0.8);/*左右の画像のサイズを80%に*/
+  transition: all .5s;/*拡大や透過のアニメーションを0.5秒で行う*/
+  opacity: 0.5;/*透過50%*/
+}
+
+.slider .slick-slide.slick-center{
+  transform: scale(1);/*中央の画像のサイズだけ等倍に*/
+  opacity: 1;/*透過なし*/
+}
+
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slick-prev, 
+.slick-next {
+    position: absolute;/*絶対配置にする*/
+    top: 42%;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    border-top: 2px solid #666;/*矢印の色*/
+    border-right: 2px solid #666;/*矢印の色*/
+    height: 15px;
+    width: 15px;
+}
+
+.slick-prev {/*戻る矢印の位置と形状*/
+    left: -1.5%;
+    transform: rotate(-135deg);
+}
+
+.slick-next {/*次へ矢印の位置と形状*/
+    right: -1.5%;
+    transform: rotate(45deg);
+}
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+    text-align:center;
+  margin:20px 0 0 0;
+}
+
+.slick-dots li {
+    display:inline-block;
+  margin:0 5px;
+}
+
+.slick-dots button {
+    color: transparent;
+    outline: none;
+    width:8px;/*ドットボタンのサイズ*/
+    height:8px;/*ドットボタンのサイズ*/
+    display:block;
+    border-radius:50%;
+    background:#ccc;/*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button{
+    background:#333;/*ドットボタンの現在地表示の色*/
+}
+
+.slider.design {
+	width: 60%;
+}
+
+.slider.design img {
+	width: 60%;
+	margin: 0 auto;
+}
+
+a.webdesign img {
+	width: 550px;
+}
+
+/*========= レイアウトのためのCSS ===============*/
+
+body{
+  background:#eee;
+}
+
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  color: #333;
+}
+
+a:hover,
+a:active{
+  text-decoration: none;
+}
+
+footer {
+	width: 100%;
+	margin-top: 15%;
+	padding: 15px 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+footer img {
+	width: 90px;
+	margin-bottom: 10px;
+}
+
+/* about
+-------------------------------------*/
+.namelogo {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.namelogo img {
+	width: 300px;
+}
+
+.icon {
+	text-aligin: center;
+}
+
+.icon img {
+	width: 300px;
+}
+
+.skill {
+	margin: 15% 0;
+	text-align: center;
+}
+
+.title {
+	margin: 50px;
+}
+
+.title img {
+	width: 150px;
+}
+
+.graph img {
+	width: 550px;
+}
+
+.favorite {
+	text-align: center;
+	margin: 15% 0;
+}
+
+.fav_icon img {
+	width: 500px;
+}
+ 
+
+
+/* works
+-------------------------------------*/
+.work_ig {
+	text-align: center;
+}
+
+.design_flex {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 50px 0;
+	width: 100%;
+}
+
+.design_flex div {
+	margin-bottom: 50px;
+}
+
+.img_box {
+	overflow:hidden;
+	width: 500px;
+}
+
+.img_box img {
+	width: 100%;
+	margin-top: 20px;
+	transition:1s all;
+}
+
+.img_box img:hover{
+  	transform:scale(1.2,1.2);
+  	transition:1s all;
+}
+
+p.lb {
+	font-size: 1.8rem;
+	font-family: "Arial Black";
+	margin-bottom: 8px;
+	margin-top: 15px;
+}
+
+.works_design img {
+	margin-top: 30px;
+}
+
+.overlay { /* グレーの背景 */
+  	position: fixed;
+  	background: rgba(0, 0, 0, 0.2);
+  	transition: all 0.5s 0s ease;
+  	visibility: hidden;
+  	opacity: 0;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+}
+
+#pop-up {
+  	display: none;
+}
+
+#pop-up:checked + .overlay {
+  	visibility: visible;
+  	opacity: 1;
+  	z-index: 100000;
+  	background-color: #000000D0;
+  	width: 100%;
+}
+
+.popWindow {
+  	border-radius: 5px;
+  	overflow: auto; /* スクロールバー用 */
+  	max-height: 95%; /* すき間 */
+  	min-width: fit-content; /* 横幅が広い時に白の部分が大きくならないため */
+  	max-width: 95%; /* すき間 */
+  	position: fixed;
+  	top: 50%; /* 中央に */
+  	left: 50%; /* 中央に */
+  	transform: translate(-50%, -50%); /* 中央に */
+  	z-index: 100010;
+  	font-size: 13px;
+  	line-height: 18px;
+  	margin: 10px auto;
+  	padding: 4px 10px;
+  	background: #FFFD; /* 枠の色 */
+  	text-align: center; /* 文字を中央寄せ */
+  	transition: all 500ms ease-in-out;
+}
+
+.popWindow .ptitle {
+  	font-size: 15px;
+  	margin: 8px;
+  	color: #333;
+}
+
+.popWindow .close {
+  	position: absolute;
+  	top: 8px;
+  	right: 10px;
+  	transition: all 300ms;
+  	font-size: 24px;
+  	line-height: inherit;
+  	font-weight: bold;
+  	text-decoration: none;
+  	color: #000;
+  	padding: 2px;
+}
+
+.popWindow .close:hover {
+  	color: #06D85F;
+}
+
+.popWindow::-webkit-scrollbar-track {
+  	background: none;
+}
+
+.popWindow::-webkit-scrollbar {
+  	width: 10px;
+  	height: 10px;
+}
+
+.popWindow::-webkit-scrollbar-thumb {
+  	background: #999;
+  	border-radius: 5px;
+}
+
+.clickable:hover {
+  	cursor: pointer;
+}
+
+.element {
+  /* 最初は非表示 */
+  transform: translateY(30px);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 1s, opacity 1s, visibility 1s;
+  
+  /* （装飾用スタイル） */
+  width: 80%;
+  height: 120px;
+  background-color: #ddd;
+}
+/* フェードイン時に入るクラス */
+.is-fadein {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1s;
+ -ms-animation-duration:1s;
+ animation-duration:1s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+@media screen and (max-width: 959px) {
+
+	.btn_box {
+		display: block;
+	}
+
+	.top_btn {
+		width: 100%;
+		margin-top: 30px;
+	}
+	
+	.header {
+		text-align: left;
+		margin: 30px 10px;
+		width: 100%
+	}
+	
+	.header img {
+		width: 75px;
+	}
+	
+	.menu-icon {
+		padding: 0;
+	}
+	
+	.navtext {
+		margin-top: 0;
+		text-align: center;
+	}
+	
+	.navtext-container {
+		height: 9px;
+	}
+	
+	.image_link {
+		width: 100%;
+	}
+
+	.contents {
+		margin: 0 10px;
+	}
+
+	.icon img {
+		width: 100%;
+	}
+	
+	.design img {
+		width: 50%;
+	}
+
+	.de_ig {
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	.de_ig img {
+		width: 100%;
+	}
+
+	span {
+		font-size: 20px;
+	}
+
+	p.left {
+		font-size: 15px;
+		width: 100%;
+	}
+
+	.works {
+		margin-bottom: 20%;
+	}
+	
+	.works img{
+		width: 100%;
+	}
+
+	.travel {
+		margin-bottom: 20%;
+	}
+	
+	.travel img{
+		width: 100%;
+	}
+	
+	.logo img {
+		width: 150px;
+	}
+	
+	.logo_02 img {
+		width: 100px;
+	}
+	
+/* about
+-------------------------------------*/
+
+
+	.namelogo img {
+		width: 200px;
+	}
+
+
+	.icon img {
+		width: 150px;
+	}
+	
+	.title {
+		margin-bottom: 20px;
+	}
+	
+	.title img {
+		width: 100px;
+	}
+
+	.graph img {
+		width: 100%;
+	}	
+
+	.fav_icon img {
+		width: 100%;
+	}
+
+/*works
+-------------------------------------*/
+
+	.design_flex {
+		display: block;
+		margin: 50px 0;
+		width: 100%;
+	}
+
+	.design_flex div {
+		margin-bottom: 50px;
+	}
+
+	.img_box  {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	p.lb {
+		font-size: 1.5rem;
+	}
+
+	.works_design img {
+		margin-top: 30px;
+	}
+	
+	.popup {
+		width: 300px;
+	}
+	
+	footer img {
+		width: 50px;
+	}
+	
+}
