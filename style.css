@@ -1129,6 +1129,8 @@ p.lb {
 	transform-origin: top;
 	transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
 	margin-top: 80px;
+	background: #000;
+	width: 50%;
 }
 
 /* Hamburger menbu text */
@@ -1143,10 +1145,11 @@ p.lb {
   	transition: 0.5s;
   	display: inline-block;
   	transition: .3s;
+	color: #fff;
 }
 
 	.menu li {
-  	border-top: 0;
+  	border-top: 2px solid rgb(75, 75, 75);
   	padding: 15px 20px;
   	margin: 0;
 }
