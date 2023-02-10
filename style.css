@@ -1064,6 +1064,7 @@ p.lb {
 	
 	.image_link {
 		width: 100%;
+		position: 
 	}
 
 	.contents {
@@ -1131,6 +1132,8 @@ p.lb {
 	margin-top: 80px;
 	background: #000;
 	width: 50%;
+	position: fixed;
+	z-index: 1000;
 }
 
 /* Hamburger menbu text */
