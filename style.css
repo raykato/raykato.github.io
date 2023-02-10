@@ -1030,11 +1030,12 @@ p.lb {
 		position: absolute;
 		width: 100%;
 		text-align: center;
+		margin: 0;
 	}
 
 	.top_btn {
 		width: 60%;
-		margin: 30px 0;
+		margin: 30px auto;
 	}
 	
 	.header {
