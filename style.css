@@ -1040,7 +1040,7 @@ p.lb {
 	}
 	
 	.menu-icon {
-		padding: 0;
+		padding: 0 10px;
 	}
 	
 	.navtext {
@@ -1050,6 +1050,7 @@ p.lb {
 	
 	.navtext-container {
 		height: 9px;
+		padding: 10px 0;
 	}
 	
 	.image_link {
