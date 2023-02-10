@@ -158,7 +158,7 @@ section:nth-child(2n){
 .btn_box {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 15%;
+	margin: 5% 20%;
 }
 
 .top_btn {
@@ -1024,16 +1024,20 @@ p.lb {
 		display: block;
 		width: 60%;
 		margin: 0 auto;
+		z-index: 1000;
+		position: absolute;
+		width: 100%;
+		padding: 0 10px;
 	}
 
 	.top_btn {
-		width: 100%;
-		margin-top: 30px;
+		width: 60%;
+		margin: 30px auto;
 	}
 	
 	.header {
 		text-align: left;
-		padding: 30px 0;
+		padding: 0;
 		width: 100%
 	}
 	
@@ -1244,10 +1248,7 @@ p.lb {
 
 .contents {
 	margin: 0;
-	z-index: 1000;
-	position: absolute;
-	width: 100%;
-	padding: 0 10px;
+	padding: 70px 15px;
 	}
 
 	
