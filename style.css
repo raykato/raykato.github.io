@@ -1014,14 +1014,18 @@ p.lb {
 	.top_logo img {
 		width: 100px;
 	}
-
+	
+	.top_text {
+		margin: 15px 0;
+	}
+	
 	.top_text img {
 		width: 180px;
 	}
 	
 	.top_header {
 		margin-top: 0;
-		padding-top: 80px;
+		padding-top: 125px;
 	}
 
 	.btn_box {
