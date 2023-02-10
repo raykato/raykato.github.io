@@ -1026,15 +1026,15 @@ p.lb {
 	.btn_box {
 		display: block;
 		width: 60%;
-		margin: 0 auto;
 		z-index: 1000;
 		position: absolute;
 		width: 100%;
+		text-align: center;
 	}
 
 	.top_btn {
 		width: 60%;
-		margin: 30px auto;
+		margin: 30px 0;
 	}
 	
 	.header {
