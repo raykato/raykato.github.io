@@ -1021,6 +1021,7 @@ p.lb {
 	
 	.top_header {
 		margin-top: 0;
+		padding-top: 80px;
 	}
 
 	.btn_box {
