@@ -1019,6 +1019,10 @@ p.lb {
 	.top_text img {
 		width: 180px;
 	}
+	
+	.top_header {
+		margin-top: 0;
+	}
 
 	.btn_box {
 		display: block;
@@ -1027,7 +1031,6 @@ p.lb {
 		z-index: 1000;
 		position: absolute;
 		width: 100%;
-		padding: 0 10px;
 	}
 
 	.top_btn {
@@ -1319,6 +1322,10 @@ p.lb {
 	
 	.popup {
 		width: 300px;
+	}
+	
+	.img_box img {
+		margin-top: 10px;
 	}
 	
 	footer img {
